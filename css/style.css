@@ -26,7 +26,7 @@ nav ul li a{
 
 
 .navEnd{
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .specs{
@@ -36,7 +36,7 @@ nav ul li a{
     margin: 0;
 }
 .specs h2{
-    color: #1E90FF;
+    color: #fff	;
 }
 .specs h4{
     color: #EE0000;
@@ -50,7 +50,7 @@ nav ul li a{
 }
 
 .sect1{
-    background: url(../pictures/data2.jpeg) no-repeat;
+    background: url(../pictures/infinix4.jpeg) no-repeat;
     width: 100%;
     padding: 150px 0;
     background-size: cover;
@@ -59,7 +59,7 @@ nav ul li a{
 }
 
 .sect2{
-    background: url(../pictures/data3.jpeg) no-repeat;
+    background: url(../pictures/infinix1.jpeg) no-repeat;
     width: 100%;
     padding: 150px 0;
     background-size: cover;
@@ -68,8 +68,8 @@ nav ul li a{
 }
 
 .sect3{
-    background: url(../pictures/data4.jpeg) no-repeat;
-    widows: 100%;
+    background: url(../pictures/infinix5.jpeg) no-repeat;
+    width: 100%;
     padding: 150px 0;
     background-size: cover;
     background-position: center;
@@ -82,7 +82,7 @@ nav ul li a{
     cursor: pointer;
 }
 .zoom:hover{
-    transform: scale(1.05, 1.05)
+    transform: scale(1.1, 1.1)
 }
 
 .explore{
@@ -126,7 +126,7 @@ button:hover{
 }
 
 .proServ ul:first-child{
-    width: 300px;
+    width: 400px;
 
     padding-left: 120px;
 }
@@ -135,7 +135,14 @@ button:hover{
     padding: 20px 0;
     font-size: 18px;
     color: #1E90FF;
+    border-left: 2px solid #EE0000;
+    padding-left: 15px;
+    line-height: 0px;
 }
+/*.proServ li:first-child::before {
+    content: "|  "
+}*/
+
 .proServ li{
     text-decoration: none;
     padding: 8px 0;
